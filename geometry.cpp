@@ -1,8 +1,10 @@
-#include "geometry.h"
+﻿#include "geometry.h"
 
 Geometry::Geometry(QWidget *parent)
     : QDialog(parent)
 {
+
+    /////////////////////////
     setWindowTitle(tr("Geometry"));
     xLabel =new QLabel(tr("x():"));
     xValueLabel =new QLabel;
