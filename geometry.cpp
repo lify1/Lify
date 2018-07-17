@@ -4,7 +4,7 @@ Geometry::Geometry(QWidget *parent)
     : QDialog(parent)
 {
 
-    /////////////////////////
+    /////////////////////////888888888
     setWindowTitle(tr("Geometry"));
     xLabel =new QLabel(tr("x():"));
     xValueLabel =new QLabel;
